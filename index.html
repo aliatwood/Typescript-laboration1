@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Startsida</title>
+    <link rel="icon" href="src/pictures/favicon.png" type="image/png">
+    <script src="src/main.ts" type="module"></script>
 </head>
 <body>
+    <header>
+        <nav class="menu">
+            <a href="index.html">Startsida</a>
+            <a href=#>Kontakt</a>
+            <a href="#">Om oss</a>
+        </nav>
+    </header>
+    <main>  
+        <h1 class="title">Sök efter kurser</h1>
+        <div class="user-search">
+            <label for="search">Sök</label>
+            <input type="text" id="search">
+            <button>Sök</button>
+        </div>
+
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Name</th>
+                        <th>Progression</th>
+                        <th>Syllabus</th>
+                    </tr>
+                </thead>
+                <tbody id="course-list">
+
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© All rights reserved</p>
+    </footer>
     
 </body>
 </html>
