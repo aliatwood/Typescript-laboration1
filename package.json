@@ -1,20 +1,15 @@
 {
-  "name": "typescript-laboration1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "lab1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aliatwood/Typescript-laboration1.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aliatwood/Typescript-laboration1/issues"
-  },
-  "homepage": "https://github.com/aliatwood/Typescript-laboration1#readme"
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^8.0.1"
+  }
 }
