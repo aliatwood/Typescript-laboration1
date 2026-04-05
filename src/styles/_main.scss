@@ -32,16 +32,11 @@ body{
 .title{
     text-align: center;
 }
-.user-search{
+.add-course{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1em;
-
-    label{
-        font-weight: bold;
-        font-size: 1.1em;
-    }
 
     input{
         padding: 6px 10px;
@@ -68,6 +63,23 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 2em;
+
+    th, td{
+        padding: 0.5em 2em;
+    }
+
+    button{
+        padding: 5px 12px;
+        border-radius: 8px;
+        cursor: pointer;
+        background-color: #8b2e2e;
+        color: white;
+        border: none;
+
+        &:hover{
+            background-color: #a94444;
+        }
+    }
 }
 
 footer{
@@ -92,7 +104,7 @@ footer{
         gap: 1em;
     }
 
-    .user-search{
+    .add-course{
         flex-direction: column;
         align-items: stretch;
         padding: 0 1em;
