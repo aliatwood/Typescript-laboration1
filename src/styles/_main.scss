@@ -96,6 +96,27 @@ footer{
     }
 }
 
+@media (max-width: 1023px) {
+    .menu{
+        gap: 2em;
+    }
+
+    .add-course{
+        flex-wrap: wrap;
+        padding: 0 1em;
+
+        input{
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        button{
+            width: 100%;
+            padding: 8px;
+        }
+    }
+}
+
 @media (max-width: 600px) {
     .menu{
         flex-direction: column;
@@ -117,6 +138,17 @@ footer{
         button{
             width: 100%;
             padding: 8px;
+        }
+    }
+
+    .table{
+        overflow-x: auto;
+        width: 100%;
+        padding: 0 1em;
+        box-sizing: border-box;
+
+        th, td{
+            padding: 0.5em 1em;
         }
     }
 
