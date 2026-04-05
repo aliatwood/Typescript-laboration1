@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Startsida</title>
+    <title>Kursöversikt</title>
+    <link rel="icon" href="/Typescript-laboration1/assets/favicon-CXWU9Gyf.png" type="image/png">
+  <script type="module" crossorigin src="/Typescript-laboration1/assets/index-qBdZnIBc.js"></script>
+  <link rel="stylesheet" crossorigin href="/Typescript-laboration1/assets/index-CdhUl5FH.css">
 </head>
 <body>
+    <header>
+        <nav class="menu">
+            <a href="index.html">Kursöversikt</a>
+            <a href=#>Kontakt</a>
+            <a href="#">Om oss</a>
+        </nav>
+    </header>
+    <main>  
+        <h1 class="title">Sök efter kurser</h1>
+
+        <div class="add-course">
+            <input id="code" placeholder="Course Code">
+            <input id="name" placeholder="Course Name">
+            <input id="progression" placeholder="A / B / C">
+            <input id="syllabus" placeholder="Syllabus URL">
+            <button id="add-btn">Add Course</button>
+        </div>
+
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Name</th>
+                        <th>Progression</th>
+                        <th>Syllabus</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="course-list">
+
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© All rights reserved</p>
+    </footer>
     
 </body>
 </html>
