@@ -6,4 +6,4 @@ Webbplatsen använder sig av Typescript där bland annat localstorage och DOM-ma
 
 ## Publicerad webbplats
 Webbplatsen publiceras automatiskt via **GitHub Pages**.
-[Länk till den publicerade webbplatsen](https://aliatwood.github.io/Typescript-laboration1/)
+[Länk till den publicerade webbplatsen](https://aliatwood.github.io/Backend-laboration2-uppgift2/)
